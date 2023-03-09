@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <groups>
+		  <run>
+			  <include name="integration"></include>
+			  <exclude name="smoke"></exclude>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="SoftDrinks.Fanta"/>
+      <class name="SoftDrinks.Pepsi"/>
+      <class name="SoftDrinks.SevenUp"/>
+      <class name="SoftDrinks.Sprite"/>
+      <class name="SoftDrinks.Maaza"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
