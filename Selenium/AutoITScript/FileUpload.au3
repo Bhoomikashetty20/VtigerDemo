@@ -1,7 +1,0 @@
-Send("C:\Users\Bhoomika\Downloads\PUC_compressed.pdf")
-Sleep(500)
-Send("{TAB}")
-Sleep(500)
-Send("{TAB}")
-Sleep(500)
-Send("{ENTER}")
